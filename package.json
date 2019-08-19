@@ -3,16 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
+    "eslint": "^6.2.0",
+    "handlebars": "^4.1.2",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
+    "mem": "^5.1.1",
+    "merge": "^1.2.1",
+    "react": "^16.9.0",
+    "react-dev-utils": "^9.0.3",
+    "react-dom": "^16.9.0",
     "react-fontawesome": "^1.6.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "webpack-dev-server": "^3.8.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint-loader": "^2.2.1"
   }
 }
